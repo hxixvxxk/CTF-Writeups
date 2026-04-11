@@ -78,5 +78,23 @@ I immediately spot the base64 on the author's information.
 
     Author                          : cGljb0NURntwdXp6bDNkX20zdGFkYXRhX2YwdW5kIV9lZTQ1NDk1MH0=
 
+Let's copy that (Ctrl+Shift+C) so that we can echo it into a base64 decode command.
+
+    ┌──(hellopo㉿rald)-[~]
+    └─$ echo "cGljb0NURntwdXp6bDNkX20zdGFkYXRhX2YwdW5kIV9lZTQ1NDk1MH0=" | base64 -d
+
+The "echo" command in Linux is a built-in utility used to display lines of text or strings passed as arguments.
+
+Meanwhile, "base64" is a command used to encode binary data into a text-based format. the "-d" flag tells it to decode base64 instead of encoding it.
+
+The "|" is known as a pipe and is used to take the output of one command and send it directly as the input to the next command. You can say it like "I will pipe X into Y". For our case, you can say "I will echo this string and pipe it into ... ".
+
+The result is shown.
+
+
+Flag:
+
+picoCTF{puzzl3d_m3tadata_f0und!_ee454950}
+
 
 
