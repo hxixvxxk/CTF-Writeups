@@ -42,4 +42,39 @@ To unmask its true identity, I used the file command to inspect its Magic Bytes 
 
 ![Image](../../assets/binaryDigits4.png)
 
-We find out that its ASCII text, 
+We find out that its ASCII text, and most importantly, it is 65536 lines. 
+
+That is a very important detail, because that number is exactly 2^16 and is the perfect square of 256. It's also exactly 64 KiB.
+
+This hints that the binary is an image map that is shaped as a square. 
+
+We need to wrap the text every 256 characters and view what the image is.
+
+We can use CyberChef for this (the Cyber Swiss Army Knife). Here's the link:
+
+https://gchq.github.io/CyberChef/
+
+![Image](../../assets/binaryDigits5.png)
+
+
+It has a great tool called Magic operation. Here's what it does:
+
+The Magic operation attempts to detect various properties of the input data and suggests which operations could help to make more sense of it.
+
+It's basically an automatic decrypter for whatever possible likely encryptions something has. 
+It's great for a time-bound CTF environment because it saves a lot of time guessing what it is.
+But it's important to know the fundamental reasons or logic as to how or why you got the answer that you did.
+
+Anyway, using the Magic operation tells us that it's likely an image file.
+
+![Image](../../assets/binaryDigits6.png)
+
+So we will click the first suggestion to perform that decryption.
+
+![Image](../../assets/binaryDigits7.png)
+
+
+
+The flag is: 
+
+picoCTF{h1dd3n_1n_th3_b1n4ry_a59b2b0a}
