@@ -1,4 +1,4 @@
-<img width="1657" height="91" alt="image" src="https://github.com/user-attachments/assets/6c8bc30a-84de-47fc-bf50-263a53c4e44e" /><img width="688" height="90" alt="image" src="https://github.com/user-attachments/assets/b6a439c1-1bdb-44b5-b389-eb90115b8f58" />This is the first challenge I'm solving for 2026.
+This is the first challenge I'm solving for 2026.
 
 CTF Name: picoCTF
 
