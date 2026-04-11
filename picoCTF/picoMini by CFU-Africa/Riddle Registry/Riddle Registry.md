@@ -46,7 +46,7 @@ Next, I want to view the contents.
 
 It's a one-page PDF with some playful text teasing us about the flag.
 
-![Image](../assets/riddleRegistry1.png)
+![Image](../../assets/riddleRegistry1.png)
 
 It has certain words that are blacked out, but simply highlight them by selecting the words and it reveals some teasing. No flag. 
 
