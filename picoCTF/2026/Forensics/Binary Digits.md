@@ -1,4 +1,4 @@
-<img width="1903" height="765" alt="image" src="https://github.com/user-attachments/assets/0aad389b-c495-4fea-9ab2-ced5df64352a" />This is the first challenge I'm solving for 2026.
+<img width="1657" height="91" alt="image" src="https://github.com/user-attachments/assets/6c8bc30a-84de-47fc-bf50-263a53c4e44e" /><img width="688" height="90" alt="image" src="https://github.com/user-attachments/assets/b6a439c1-1bdb-44b5-b389-eb90115b8f58" />This is the first challenge I'm solving for 2026.
 
 CTF Name: picoCTF
 
@@ -25,11 +25,21 @@ The first step is to hop on a Linux environment. I'm using Ubuntu because it's e
 I open my Ubuntu software. (22.04.5 LTS)
 
 I right click the file link, and hit "Copy link address"
-![Step1](../../assets/binaryDigits1.png)
+
+![Image](../../assets/binaryDigits1.png)
 
 Now, the link is in my clipboard and I get use the wget command to download it into my Linux environment.
 
-<img width="1903" height="765" alt="image" src="https://github.com/user-attachments/assets/b77fcd9c-fd8e-4ee3-9d22-d9417a3a7de9" />
+![Image](../../assets/binaryDigits2.png)
 
+After successfully downloading, digits.bin can be seen in my current directory after using the ls command.
 
+![Image](../../assets/binaryDigits3.png)
 
+In a CTF, a .bin file is rarely just raw binary data. It is often a disguise for other file types like an executable or a disk partition image. 
+
+To unmask its true identity, I used the file command to inspect its Magic Bytes (file signatures), rather than relying on the extension.
+
+![Image](../../assets/binaryDigits4.png)
+
+We find out that its ASCII text, 
