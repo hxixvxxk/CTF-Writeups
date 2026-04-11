@@ -6,7 +6,7 @@ Gerald P. Limutos | 2nd year IT Student
 Hello, my goal here is to document my journey and thought processes for each challenge I solve. 
 This repo contains walkthroughs, notes, scripts, ideas, cheat sheets, pretty much anything related to that area.
 
-My current focus is on Jeopardy style CTFs. I really badly want to win a CTF one day, especially from TrendAI (previously Trend Micro).
+My current focus is on Jeopardy style CTFs. I really badly want to win a CTF one day, especially from TrendAI (previously Trend Micro) Philippines.
 During my first year of college, I led my team of five to 84th place out of 199 teams all across the country for Trend Micro PH University CTF 2025. 
 This got me pretty hyped and maybe I might have a nick for cybersec. 
 I've been feeling passionate about this lately. I'll see where it takes me.
