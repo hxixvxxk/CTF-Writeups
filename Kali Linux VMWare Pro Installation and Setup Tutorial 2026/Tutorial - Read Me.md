@@ -1,5 +1,7 @@
 This is a tutorial on how to download Kali Linux VMWare Pro for free on Windows 11
 
-It is updated for April 2026.
+Still works as of April 2026
 
-Stay tuned
+Video Reference: https://www.youtube.com/watch?v=XzD8JIAOk2I
+
+
