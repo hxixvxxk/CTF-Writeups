@@ -103,7 +103,7 @@ To tamper with the hex of the file, we use the hexeditor command.
 
 This is what it looks like after hitting enter:
 
-![Image](../../assets/corruptedFile1.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/04a77c0f-336e-4d49-a08f-52bf701ebc2e" />
 
 Focus on the highlighted byte.
 
@@ -111,13 +111,13 @@ It starts off as "5C 78 FF E0"
 
 We edit the first two bytes to "FF D8" to match the proper convention for a JPEG file.
 
-![Image](../../assets/corruptedFile2.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f931eb13-e70a-473a-8cb3-e7db5731f3a9" />
 
-Let's check the bottom bytes if it's correct also, and it is correctly set to "FF D9"
-
-![Image](../../assets/corruptedFile3.png)
+Check the bottom bytes if it's correct also, and it is correctly set to "FF D9"
 
 Let's now save it with Ctrl+X. It will allow you to specify the file name. No need, just hit enter again and it will send you back to the terminal.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0d481d65-dce3-4b19-b015-3f45deb1082e" />
 
 Let's check the file type again, now that we've successfully edited its magic numbers.
 
@@ -132,7 +132,7 @@ Now it's a JPEG file, we can use xdg-open to view the image.
 
 We found the flag.
 
-![Image](../../assets/corruptedFile4.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/26bc8f34-0f94-4ee1-aa07-8d3ba898ebe8" />
 
 Flag:
 
