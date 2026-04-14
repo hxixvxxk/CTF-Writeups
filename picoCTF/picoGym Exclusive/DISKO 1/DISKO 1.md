@@ -24,10 +24,6 @@ Tools Used:
 
         grep
 
-        fls
-
-        icat
-
 SOLVING PROCESS:
 
 Prior to this solve, I didn't know much about disks in terms of forensics. How to read them, look through files, etc.
@@ -89,15 +85,14 @@ Let's try it.
 
 Well, it worked.
 
-Great for a fast-paced CTF but that isn't quite the proper way to solve this.
+Can't believe it actually.
 
-If it were, let's say, compressed or even encrypted, it wouldn't have worked.
+I tried to solve it in a different way, but even the hint said just use strings.
 
-We can't rely on strings+grep all the time.
+I guess that's just how the water flows.
 
-How should we go about solving this?
+Easy dubs 
 
+Flag:
 
-
-
-
+picoCTF{1t5_ju5t_4_5tr1n9_be6031da}
