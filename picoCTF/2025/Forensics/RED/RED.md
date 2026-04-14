@@ -76,6 +76,13 @@ Double check the file type using the "file" command. Remember, the challenge cou
 
 Now that we've confirmed it's actually a PNG, 
 
+Let's take a quick peek.
+
+┌──(hellopo㉿rald)-[~/Documents/CTF]
+└─$ xdg-open red.png 
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ea94648c-e8be-435a-a157-441c19d44a4d" />
+
 Check the file's metadata using "exiftool"
 
 ExifTool is a free, open-source command-line application and Perl library used for reading, writing, and editing meta information in a vast array of file types. 
