@@ -10,3 +10,13 @@ My current focus is on Jeopardy style CTFs. I really badly want to win a CTF one
 During my first year of college, I led my team of five to 84th place out of 199 teams all across the country for Trend Micro PH University CTF 2025. 
 This got me pretty hyped and maybe I might have a nick for cybersec. 
 I've been feeling passionate about this lately. I'll see where it takes me.
+
+Socials
+
+Medium:
+
+https://medium.com/@limutosgerald
+
+LinkedIn:
+
+https://www.linkedin.com/in/gerald-limutos-9a346438b/
