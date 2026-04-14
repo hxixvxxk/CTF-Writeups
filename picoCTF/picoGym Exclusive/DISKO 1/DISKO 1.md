@@ -12,6 +12,22 @@ Hints: Maybe Strings could help? If only there was a way to do that?
 
 Disclaimer: I don't read the hints during my first attempt. The process below is done without knowledge of the hints unless specified.
 
+Tools Used:
+
+        wget
+
+        gzip
+
+        file
+
+        strings
+
+        grep
+
+        fls
+
+        icat
+
 SOLVING PROCESS:
 
 Prior to this solve, I didn't know much about disks in terms of forensics. How to read them, look through files, etc.
@@ -54,10 +70,34 @@ Let's check what kind of file it is.
     ┌──(hellopo㉿rald)-[~/Documents/CTF]
     └─$ file disko-1.dd   
     disko-1.dd: DOS/MBR boot sector, code offset 0x58+2, OEM-ID "mkfs.fat", Media descriptor 0xf8, sectors/track 32, heads 8, sectors 102400 (volumes > 32 MB), FAT (32 bit), sectors/FAT           788, serial number 0x241a4420, unlabeled
+    
 A .dd file is a raw disk image file created by the dd (Dataset Definition) command-line utility, acting as a bit-for-bit copy of a drive, partition, or medium
 
-First thought here is to search through this file, and see what files we can find.
+Notably, it says that it's identified as FAT32. This is a huge clue. It means the disk is formatted like a standard USB thumb drive. So there's a whole lot of folders and files in here most likely.
 
-So, it's straightforward to assume that tools like "mmls" from Sleuth Kit can help search through it.
+First thought here is to search through all of that, and see what files we can find.
 
-However, mmls searches through
+But let's apply a bit of triage thinking here: If this file is just a whole lotta folders and files, we could just strings it and grep it so that we can filter through and find the flag.
+
+(this is probably going to be useful for easy level CTFs)
+
+Let's try it.
+
+        ┌──(hellopo㉿rald)-[~/Documents/CTF]
+        └─$ strings disko-1.dd | grep "picoCTF"
+        picoCTF{1t5_ju5t_4_5tr1n9_be6031da}
+
+Well, it worked.
+
+Great for a fast-paced CTF but that isn't quite the proper way to solve this.
+
+If it were, let's say, compressed or even encrypted, it wouldn't have worked.
+
+We can't rely on strings+grep all the time.
+
+How should we go about solving this?
+
+
+
+
+
