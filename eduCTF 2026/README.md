@@ -70,9 +70,9 @@ The primary focus of this event is forensics and cryptography (e.g., file analys
 
 5. Technical
 
-Participants are encouraged to use industry-standard tools (e.g., Autopsy, Wireshark, FTK Imager).
+Participants are encouraged to use linux command-line utility tools.
 
-You may use online resources and documentation.
+Participants may use online resources if needed.
 
 6. Prize
 
