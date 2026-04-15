@@ -3,6 +3,9 @@
 
 eduCTF 2026
 
+Hosted by: Educational & Research Committee Head and Asst. Head (Marck Jed S. Mabalot & Gerald P. Limutos)
+Challenge Writer: Gerald P. Limutos 
+(Contact me if there are concerns regarding the challenges.)
 
 Summary:
 A jeopardy-style capture-the-flag competition designed for beginners from PUP-STC. Participants are required to be members of the Educational and Research Committee A.Y 2025-2026. Winners will be awarded with e-certificates. The goal is to expose more PUP students to the world of cybersecurity.
