@@ -1,3 +1,4 @@
+<img width="1087" height="160" alt="image" src="https://github.com/user-attachments/assets/786cda6f-b7eb-4347-962c-a8b9c99afb54" />
 
 
 eduCTF 2026
@@ -72,3 +73,10 @@ The primary focus of this event is forensics and cryptography (e.g., file analys
 Participants are encouraged to use industry-standard tools (e.g., Autopsy, Wireshark, FTK Imager).
 
 You may use online resources and documentation.
+
+6. Prize
+
+   Winners will be awarded ₱200,000 each.
+   Joke lang po, sa gobyerno niyo yan hingiin.
+
+   Winners will be awarded with e-certificates signed by the Educational & Research Committee heads, COMSOC President, and PUP-STC BSIT Coordinator.
