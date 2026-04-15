@@ -77,6 +77,6 @@ You may use online resources and documentation.
 6. Prize
 
    Winners will be awarded ₱200,000 each.
-   Joke lang po, sa gobyerno niyo yan hingiin.
+   Joke lang po, sa ninakaw ng gobyerno niyo yan hingiin.
 
    Winners will be awarded with e-certificates signed by the Educational & Research Committee heads, COMSOC President, and PUP-STC BSIT Coordinator.
