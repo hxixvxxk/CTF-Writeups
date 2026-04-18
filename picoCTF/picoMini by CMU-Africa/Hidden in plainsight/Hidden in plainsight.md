@@ -1,0 +1,4 @@
+
+Flag:
+
+picoCTF{h1dd3n_1n_1m4g3_5d4cba73}
