@@ -80,6 +80,16 @@ It will extract it to a file, so let's just cat "flag.txt"
 
 There you go! 
 
+
 Flag:
 
 picoCTF{h1dd3n_1n_1m4g3_5d4cba73}
+
+
+Bonus: We didn't even need to view the image for this one. But if you're curious, here's what it looks like:
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/30115bd9-a0d5-4320-b65b-c1753a1561ef" />
+
+
+
+
