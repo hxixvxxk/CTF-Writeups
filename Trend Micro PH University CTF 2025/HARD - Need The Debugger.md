@@ -1,9 +1,12 @@
+<img width="1400" height="561" alt="image" src="https://github.com/user-attachments/assets/06419083-a0db-4230-b0a5-4be5ed59a359" />
+
+
 <img width="1193" height="743" alt="image" src="https://github.com/user-attachments/assets/33177fb6-57ae-4193-880f-6de8db80c280" />
 
 
-CTF Name: picoCTF
+CTF Name: Trend Micro Philippines University CTF
 
-Challenge Name: DISKO 1
+Challenge Name: Need The Debugger
 
 Category: Reverse Engineering
 
