@@ -1,6 +1,27 @@
 <img width="1193" height="743" alt="image" src="https://github.com/user-attachments/assets/33177fb6-57ae-4193-880f-6de8db80c280" />
 
 
+CTF Name: picoCTF
+
+Challenge Name: DISKO 1
+
+Category: Forensics
+
+Difficulty: Easy
+
+Challenge Description: "Can you find the flag in this disk image? Download the disk image here."
+
+Hints: (Unsure, I did not use reveal the hint for this challenge.)
+
+
+Tools Used:
+
+    chmod
+    
+    gdb
+    
+SOLVING PROCESS:
+
 ┌──(hellopo㉿rald)-[~/Downloads]
 └─$ gdb file
 
