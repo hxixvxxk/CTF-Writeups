@@ -16,7 +16,7 @@ Points: 50
 
 Challenge Description:
 
-This is a 64-bit Linux commandline program of "Guess The Number". The user needs to guess the correct number after 1 try to see the flag. Debug information has not been stripped, but the C source code is provided. It should run on Debian based systems. MD5 of the file is 2c27201454b4f036435f8f71756166d0"
+This is a 64-bit Linux command line program of "Guess The Number". The user needs to guess the correct number after 1 try to see the flag. Debug information has not been stripped, but the C source code is provided. It should run on Debian based systems. MD5 of the file is 2c27201454b4f036435f8f71756166d0"
 
 Hints: (I don't know, I did not reveal the hint for this challenge.)
 
