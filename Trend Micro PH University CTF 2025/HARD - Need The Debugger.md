@@ -1,3 +1,6 @@
+<img width="1193" height="743" alt="image" src="https://github.com/user-attachments/assets/33177fb6-57ae-4193-880f-6de8db80c280" />
+
+
 ┌──(hellopo㉿rald)-[~/Downloads]
 └─$ gdb file
 
