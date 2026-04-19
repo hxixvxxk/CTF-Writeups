@@ -18,24 +18,80 @@ Hints: (I don't know, I did not reveal the hint for this challenge.)
 
 Tools Used:
 
+    file
+
     chmod
     
     gdb
     
 SOLVING PROCESS:
 
-To quickly learn about the concept of breakpoints, click [me.](https://www.youtube.com/watch?v=QAIEqITdP5g
-)
+The description says it is a commandline program, meaning it is an executable that we will have to [chmod](https://www.geeksforgeeks.org/linux-unix/chmod-command-linux/) in order to execute it.
 
-This challenge 
+In a nutshell, chmod is a command that modifies the read-write-execute permissions of a file or directory.
+
+It's commonly used to run executable files.
+
+It also gives a hint as to what the game is gonna be about. It'll be your usual guess the number type of game where you give it a number and it'll say whether your guess must be higher or lower.
+
+However, those "higher or lower" hints won't matter because you have to guess it in the first try.
+
+Debugging information has not been stripped, which is great, because we can peek into the file and try to look at the variable used for the correct number immediately after it is assigned.
+
+We can use the gdb command for this, and we can use breakpoints to set kind of "checkpoints" in a specific line of code so we can sort of time-travel, and pause time, right at that exact line.
+
+However,the C source code is not provided. This will make it harder but it's still possible to snoop around and see what we can get.
+
+To quickly learn about the concept of breakpoints and gdb., click [me.](https://www.youtube.com/watch?v=QAIEqITdP5g)
+
+You may find other resources online about this topic, there are plenty. But I find that video to be a decent and quick way to understand what we'll be doing here.
+
+The description also says it will run on [Debian](https://www.debian.org/) which likely means it was written on a Debian-based system.
+
+Let's start
+
+Let's use the file command to look at what we're dealing with.
 
         ┌──(hellopo㉿rald)-[~/Downloads]
         └─$ file file
         file: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=ee7b29c07ab22bc8fef79833b5bb4beb8af3009f, for GNU/Linux 3.2.0, with debug_info, not stripped
-                                                                                                           
+
+This confirms our suspicion that it is an executable, so let's chmod it so we can play Guess The Number.                                                                                                        
+
         ┌──(hellopo㉿rald)-[~/Downloads]
         └─$ chmod +x file
-                                                                                                           
+
+Now let's run and play.
+
+        ┌──(hellopo㉿rald)-[~/Downloads]
+        └─$ ./file
+        Guess a number between 1 and 1000
+        500
+        Lower number please!
+        250
+        Higher number please!
+        375 
+        Higher number please!
+        437.5 
+        Lower number please!
+        Lower number please!
+        Lower number please!
+        Lower number please!
+        Lower number please!
+        Lower number please!
+        Lower number please!
+        Lower number please!
+        Lower number please!
+        Lower number please!
+        Lower number please!
+        Lower number please!
+        Lower number please!
+        
+        Limit Reached - You Loose!
+        
+Okay, I guess we lost the game. Anyway, we failed to guess the number on the first try, so let's look into the info we can get with gdb and try to figure out which breakpoints to set.
+
+                                                                                                    
         ┌──(hellopo㉿rald)-[~/Downloads]
         └─$ gdb ./file
         GNU gdb (Debian 17.1-4) 17.1
