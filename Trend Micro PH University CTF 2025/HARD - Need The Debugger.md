@@ -150,7 +150,7 @@ Let's dissect the parts of this disassembly before we analyze. Let's take for ex
 
 "push" is the assembly instruction. It's hard to explain it simply, but it essentially saves information like a bookmark.
 
-"%rbp" is a register which points to the base of the stack. 
+"%rbp" is a register which points to the base of the current stack. 
 
 
 Anyway, all of the lines follow that anatomy. However, take a look at offset +24.
