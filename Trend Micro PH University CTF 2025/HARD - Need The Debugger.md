@@ -55,6 +55,8 @@ The description also says it will run on [Debian](https://www.debian.org/) which
 
 We will be dealing with x86-64 Assembly on Linux. You can read about it [here.](https://p403n1x87.github.io/getting-started-with-x86-64-assembly-on-linux.html)
 
+...and [here](https://youtube.com/playlist?list=PLetF-YjXm-sCH6FrTz4AQhfH6INDQvQSn&si=RDkaLxmEtp99c7-y) if you prefer videos
+
 Let's start
 
 Let's use the file command to look at what we're dealing with.
