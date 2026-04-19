@@ -24,6 +24,38 @@ Tools Used:
     
 SOLVING PROCESS:
 
+To quickly learn about the concept of breakpoints, click [me.](https://www.youtube.com/watch?v=QAIEqITdP5g
+)
+
+This challenge 
+
+        ┌──(hellopo㉿rald)-[~/Downloads]
+        └─$ file file
+        file: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=ee7b29c07ab22bc8fef79833b5bb4beb8af3009f, for GNU/Linux 3.2.0, with debug_info, not stripped
+                                                                                                           
+        ┌──(hellopo㉿rald)-[~/Downloads]
+        └─$ chmod +x file
+                                                                                                           
+        ┌──(hellopo㉿rald)-[~/Downloads]
+        └─$ gdb ./file
+        GNU gdb (Debian 17.1-4) 17.1
+        Copyright (C) 2025 Free Software Foundation, Inc.
+        License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+        This is free software: you are free to change and redistribute it.
+        There is NO WARRANTY, to the extent permitted by law.
+        Type "show copying" and "show warranty" for details.
+        This GDB was configured as "x86_64-linux-gnu".
+        Type "show configuration" for configuration details.
+        For bug reporting instructions, please see:
+        <https://www.gnu.org/software/gdb/bugs/>.
+        Find the GDB manual and other documentation resources online at:
+            <http://www.gnu.org/software/gdb/documentation/>.
+        
+        For help, type "help".
+        Type "apropos word" to search for commands related to "word"...
+        Reading symbols from ./file...
+        (gdb) 
+
 
 
         ┌──(hellopo㉿rald)-[~/Downloads]
