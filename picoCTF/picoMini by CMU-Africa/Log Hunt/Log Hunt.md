@@ -30,4 +30,5 @@ TOOLS USED:
 
 SOLVING PROCESS:
 
+This problem is a very simple problem regarding ASCII text. You can 
 
