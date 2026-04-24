@@ -75,7 +75,7 @@ First thought here is to search through all of that, and see what files we can f
 
 But let's apply a bit of triage thinking here: If this file is just a whole lotta folders and files, we could just strings it and grep it so that we can filter through and find the flag.
 
-(this is probably going to be useful for easy level CTFs)
+(this is going to be useful for easy level CTFs)
 
 Let's try it.
 
@@ -89,9 +89,7 @@ Can't believe it actually.
 
 I tried to solve it in a different way, but even the hint said just use strings.
 
-I guess that's just how the water flows.
 
-Easy dubs 
 
 Flag:
 
