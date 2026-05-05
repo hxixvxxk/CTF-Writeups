@@ -6,4 +6,3 @@ Hex to Binary (or Readable Format) as File
 
     echo "BLAHBLAH" | xxd -r -p > file.extension
 
-testedit
