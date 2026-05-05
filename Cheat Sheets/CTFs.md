@@ -5,3 +5,5 @@ Base64 to Binary as File
 Hex to Binary (or Readable Format) as File
 
     echo "BLAHBLAH" | xxd -r -p > file.extension
+
+testedit
